@@ -105,7 +105,7 @@
     const matter = document.getElementById('fm').value || 'N/A';
     const desc = document.getElementById('fd').value.trim() || 'N/A';
 
-    const message = `Namaskar Advocate Rakesh Kumar 🙏\n\nNaam: ${name}\nPhone: ${phone}\nMamla: ${matter}\nVivaran: ${desc}\n\nKripaya guide karein.`;
+    const message = `Namaskar Advocate Rakesh Kumar \n\nNaam: ${name}\nPhone: ${phone}\nMamla: ${matter}\nVivaran: ${desc}\n\nKripaya guide karein.`;
 
     const url = 'https://wa.me/918340588597?text=' + encodeURIComponent(message);
     window.open(url, '_blank');
